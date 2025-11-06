@@ -1,15 +1,11 @@
 baseURL = "https://riversandinvestmentcompany.com/"
-title = "Riversand Investment Company"
-theme = "ananke"
 languageCode = "en-us"
-paginate = 6
+title = "Rivers & Investment Company"
+theme = "PaperMod"
 
 [params]
-  description = "Independent investment advisory firm specializing in wealth preservation and strategic growth."
-  custom_css = ["css/custom.css"]
-
-[menu]
-  [[menu.main]]  name = "Home"      url = "/"           weight = 1
-  [[menu.main]]  name = "Services"  url = "/services/"  weight = 2
-  [[menu.main]]  name = "Team"      url = "/team/"      weight = 3
-  [[menu.main]]  name = "Contact"   url = "/contact/"   weight = 4
+  author = "Rivers & Investment Team"
+  description = "Professional investment solutions for a modern world."
+  ShowReadingTime = true
+  ShowShareButtons = true
+  defaultTheme = "dark"
